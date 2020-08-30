@@ -53,10 +53,10 @@ Buoy  Watch  is  a  monitoring  system  focused  on  marine  life  and  environm
    - This device is located on-site.  It is composed of a Raspberry Pi cam-era and a light sensor.  Each component functions on different periodsof the day.  In daytime, the Raspberry Pi camera takes images andchecks for boats present in the area through a trained machine learn-ing  model.   Once  detection  is positive,  the  device  saves  the  image.In nighttime, the light sensor detects light used by fishermen.  Posi-tive detection is saved.  Data from both components are sent to (2)through radiofrequency modules.
 
 2. Data Receiver
-...This  unit  is  a  Raspberry  Pi  (model)  located  on  a  Local  Govern-ment Unit site.  It receives data from the Boat Detector.  Convertingreceived ...computations for more suitable arrangements, the receiversends data to the mobile application via Bluetooth.
+   - This  unit  is  a  Raspberry  Pi  (model)  located  on  a  Local  Govern-ment Unit site.  It receives data from the Boat Detector.  Converting received computations for more suitable arrangements, the receiversends data to the mobile application via Bluetooth.
 
 3. Mobile Application
-...This application is designed to immediately signal the authorities asdata are received through messages.  As the bluetooth setting of amobile phone activates, ...the app instantly carries over the data.  Thisallows a swift and convenient delivery of such findings.
+   - This application is designed to immediately signal the authorities asdata are received through messages.  As the bluetooth setting of amobile phone activates, the app instantly carries over the data.  Thisallows a swift and convenient delivery of such findings.
 
 ## Conclusion
 With  an  accuracy  level  of  88.58%,  the  device  proves  exceptionally  fair  per-formance  on  sea  environment  monitoring  through  boat  detecting  operations.Findings on the analysis of its precision and recall bring additional support tothe mentioned assertion with both values greater than 85%.  In addition,  thehandiness of an easy-to-use modelled application for mobile use boosts the con-venience level of the project with findings made accessible immediately.  Lastly,as it flashes a unique and practical design, this project features the embodimentof a complete and functional solution to depleting marine life and environment.
