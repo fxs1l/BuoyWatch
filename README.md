@@ -50,7 +50,7 @@ For the first node of BuoyWatch, it will be deployed in a buoy. Proposed designs
 Buoy  Watch  is  a  monitoring  system  focused  on  marine  life  and  environment.It  is  made  up  of  three  parts:  (1)  a  Boat  Detector,  (2)  a  Data  Receiver,  and(3) a mobile application.  This project utilizes radio frequency transmitters forwireless transmissions of data from and towards each device.
 
 1. Boat Detector
-  -This device is located on-site.  It is composed of a Raspberry Pi cam-era and a light sensor.  Each component functions on different periodsof the day.  In daytime, the Raspberry Pi camera takes images andchecks for boats present in the area through a trained machine learn-ing  model.   Once  detection  is positive,  the  device  saves  the  image.In nighttime, the light sensor detects light used by fishermen.  Posi-tive detection is saved.  Data from both components are sent to (2)through radiofrequency modules.
+   - This device is located on-site.  It is composed of a Raspberry Pi cam-era and a light sensor.  Each component functions on different periodsof the day.  In daytime, the Raspberry Pi camera takes images andchecks for boats present in the area through a trained machine learn-ing  model.   Once  detection  is positive,  the  device  saves  the  image.In nighttime, the light sensor detects light used by fishermen.  Posi-tive detection is saved.  Data from both components are sent to (2)through radiofrequency modules.
 
 2. Data Receiver
 ...This  unit  is  a  Raspberry  Pi  (model)  located  on  a  Local  Govern-ment Unit site.  It receives data from the Boat Detector.  Convertingreceived ...computations for more suitable arrangements, the receiversends data to the mobile application via Bluetooth.
