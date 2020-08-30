@@ -9,9 +9,9 @@ BuoyWatch is a two-node device. The first node is a [detection device](https://g
 Along with this device is a [mobile application](https://github.com/RaphCondor/buoy-watch-app), linked through WiFi/Bluetooth connectivity, that will contain updates of the deployed node and the collected parameters. The software will be used as a database where current and previous records of illegal fishing vessels can be found.
 
 <p float="left">
-  <img src="https://github.com/fxs1l/Buoywatch/blob/master/images/app.png" width="200" />
-  <img src="https://github.com/fxs1l/Buoywatch/blob/master/images/detected.png" width="200" /> 
-  <img src="https://github.com/fxs1l/Buoywatch/blob/master/images/location.png" width="200" />
+  <img src="https://github.com/fxs1l/Buoywatch/blob/master/images/app.png" width="400" />
+  <img src="https://github.com/fxs1l/Buoywatch/blob/master/images/detected.png" width="400" /> 
+  <img src="https://github.com/fxs1l/Buoywatch/blob/master/images/location.png" width="400" />
 </p>
 
 
@@ -20,7 +20,7 @@ The boat detection machine learning model can be accessed [here](https://github.
   
 Using [YOLO: YOU ONLY LOOK ONCE (yolov5s.pt)](https://github.com/ultrayltics/yolov5) and taking advantage of its lightweight property which makes it convenient for the Raspberry pi environment, the seacraft detection model was trained for 200 epochs on the gathered dataset. The images chosen for validation were utilized in testing the model. For accuracy, an IOU (Intersection over Union)  threshold of 0.5 has been set. This evaluation metric is used for accuracy computation of a model for object detection on a particular dataset. For further analysis, the model was tested Precision and Recall. 
 
-<p float="left">
+<p float="center">
 <img src="https://github.com/fxs1l/Buoywatch/blob/master/images/1.jpg" width="300" > 
 <img src="https://github.com/fxs1l/Buoywatch/blob/master/images/2.jpg" width="300" >
 </p>
