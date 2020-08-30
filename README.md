@@ -20,8 +20,10 @@ The boat detection machine learning model can be accessed [here](https://github.
   
 Using [YOLO: YOU ONLY LOOK ONCE (yolov5s.pt)](https://github.com/ultrayltics/yolov5) and taking advantage of its lightweight property which makes it convenient for the Raspberry pi environment, the seacraft detection model was trained for 200 epochs on the gathered dataset. The images chosen for validation were utilized in testing the model. For accuracy, an IOU (Intersection over Union)  threshold of 0.5 has been set. This evaluation metric is used for accuracy computation of a model for object detection on a particular dataset. For further analysis, the model was tested Precision and Recall. 
 
-
-![result1](https://github.com/fxs1l/Buoywatch/blob/master/images/1.jpg "result-1") ![result-2](https://github.com/fxs1l/Buoywatch/blob/master/images/2.jpg "result-2")
+<p align="center">
+  <img width="460" height="300" src="https://github.com/fxs1l/Buoywatch/blob/master/images/1.jpg">
+  <img width="460" height="300" src="https://github.com/fxs1l/Buoywatch/blob/master/images/2.jpg">
+</p>
 
 Seen here are some examples of the seacraft detection of the machine learning model we have developed. The camera functionalities were accessible through the picamera python module. The two modes present are Video mode (5 seconds) and Burst shots. These are utilized as the two means of input for data. The boat detection python script begins by loading the boat detector model. The input data from the camera is then processed through the model. The model performs non-max suppressions on the predictions to ensure that each object is detected only once. The number of seacrafts calculated will be sent to the receiver if value is greater than 0. This process is encoded as a loop. Below is a graph of the parameters when training the model. It has a high precision, with an accuracy of 88.58%.
 
