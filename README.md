@@ -9,6 +9,6 @@ BuoyWatch is a two-node device. The first node is a [detection device](https://g
 Along with this device is a mobile application, linked through WiFi connectivity, that will contain updates of the deployed node and the collected parameters. The software will be used as a database where current and previous records of illegal fishing vessels can be found.
 
 ## Design
-![buoywatch-detection-device.png](https://github.com/fxs1l/Buoywatch/blob/master/images/buoywatch-detection-device.png "BuoyWatch Design")
+![buoywatch-detection-device.png](https://github.com/fxs1l/Buoywatch/blob/master/images/buoywatch-detection-device.png "BuoyWatch Design" | width = 200)
 
 
