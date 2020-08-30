@@ -4,3 +4,7 @@
 [submodule "buoy-watch-karagathon"]
 	path = buoy-watch-karagathon
 	url = https://github.com/RaphCondor/buoy-watch-karagathon.git
+[submodule "buoywatch-receiver"]
+	path = buoywatch-receiver
+	url = https://github.com/fxs1l/buoywatch-receiver.git
+	branch = master
