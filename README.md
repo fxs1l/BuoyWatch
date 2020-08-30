@@ -10,9 +10,9 @@ BuoyWatch is a two-node device. The first node is a [detection device](https://g
 Along with this device is a [mobile application](https://github.com/RaphCondor/buoy-watch-app), linked through WiFi/Bluetooth connectivity, that will contain updates of the deployed node and the collected parameters. The software will be used as a database where current and previous records of illegal fishing vessels can be found.
 
 <p float="left">
-  <img src="https://github.com/fxs1l/Buoywatch/blob/master/images/app.png" width="200" />
-  <img src="https://github.com/fxs1l/Buoywatch/blob/master/images/detected.png" width="200" /> 
-  <img src="https://github.com/fxs1l/Buoywatch/blob/master/images/location.png" width="200" />
+  <img src="https://github.com/fxs1l/Buoywatch/blob/master/images/app.png" width="300" />
+  <img src="https://github.com/fxs1l/Buoywatch/blob/master/images/detected.png" width="300" /> 
+  <img src="https://github.com/fxs1l/Buoywatch/blob/master/images/location.png" width="300" />
 </p>
 
 The mobile application was developed through Flutter, the Mobile App SDK of Google. It uses dart and is cross-platform, meaning it can run on both iOS and Android. GoogleMaps Library has been imported to display the Maps where the boats can be seen. The Boat detection buoy will send its coordinates in order for the authority to quickly locate where the illegal fishing has occured. The mobile application will gather the data from the central device through Bluetooth/WiFi within the Local Government Unit or where the authorities are. Future recommendations would be that the data be logged and stored in a web server so that data can be accessed anywhere as long as the app is connected to the internet.
