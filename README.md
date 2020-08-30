@@ -9,9 +9,9 @@ BuoyWatch is a two-node device. The first node is a [detection device](https://g
 Along with this device is a [mobile application](https://github.com/RaphCondor/buoy-watch-app), linked through WiFi/Bluetooth connectivity, that will contain updates of the deployed node and the collected parameters. The software will be used as a database where current and previous records of illegal fishing vessels can be found.
 
 <p float="left">
-  <img src="https://github.com/fxs1l/Buoywatch/blob/master/images/app.png" width="400" />
-  <img src="https://github.com/fxs1l/Buoywatch/blob/master/images/detected.png" width="400" /> 
-  <img src="https://github.com/fxs1l/Buoywatch/blob/master/images/location.png" width="400" />
+  <img src="https://github.com/fxs1l/Buoywatch/blob/master/images/app.png" width="300" />
+  <img src="https://github.com/fxs1l/Buoywatch/blob/master/images/detected.png" width="300" /> 
+  <img src="https://github.com/fxs1l/Buoywatch/blob/master/images/location.png" width="300" />
 </p>
 
 
